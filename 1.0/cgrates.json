@@ -1,0 +1,29 @@
+{
+"general": {
+	"log_level": 7,
+	"reply_timeout": "50s"
+},
+
+"listen": {
+	"rpc_json": ":4012",
+	"rpc_gob": ":4013",
+	"http": ":4080"
+},
+
+"data_db": {
+	"db_type": "*internal"
+},
+
+"stor_db": {
+	"db_type": "*internal"
+},
+
+"attributes": {
+	"enabled": true
+},
+
+"admins": {
+	"enabled": true
+}
+
+}
